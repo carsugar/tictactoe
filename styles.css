@@ -32,10 +32,12 @@ td {
 
 #player1-scoreboard {
     float: left;
+    margin-left: 15%;
 }
 
 #player2-scoreboard {
     float: right;
+    margin-right: 15%;
 }
 
 .score {
