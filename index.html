@@ -1,0 +1,46 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="./bower_components/jquery/dist/jquery.js"></script>
+    <script src="./app.js"></script>
+</head>
+
+<body>
+    <h1 id="title">Tic Tac Toe</h1>
+    <p id="message">Player 1, it's your turn!</p>
+    <div id="board-container">
+        <div id="player1-scoreboard" class="scoreboard">
+            <p>Player 1</p>
+            <p id="player1-score" class="score">0</p>
+        </div>
+        <table id="board">
+            <tr>
+                <td id="cell1" class="cell"></td>
+                <td id="cell2" class="cell"></td>
+                <td id="cell3"></td>
+            </tr>
+            <tr>
+                <td id="cell4"></td>
+                <td id="cell5"></td>
+                <td id="cell6"></td>
+            </tr>
+            <tr>
+                <td id="cell7"></td>
+                <td id="cell8"></td>
+                <td id="cell9"></td>
+            </tr>
+        </table>
+        <div id="player2-scoreboard" class="scoreboard">
+            <p>Player 2</p>
+            <p id="player2-score" class="score">0</p>
+        </div>
+    </div>
+    <button id="reset">Reset Board</button>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: center;
+}
+
+#message {
+    margin-bottom: 20px;
+}
+
+#board {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    font-size: 80px;
+}
+
+.scoreboard {
+    display: inline-block;
+    height: auto;
+    width: auto;
+}
+
+.scoreboard p {
+    margin: 0;
+}
+
+#player1-scoreboard {
+    float: left;
+}
+
+#player2-scoreboard {
+    float: right;
+}
+
+.score {
+    font-size: 40px;
+}
+
+#reset, .scoreboard {
+    margin-top: 20px;
+    font-size: 20px;
+    color: snow;
+    background: black;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 20px;
+}
+
+#reset:hover {
+  transition: all 60ms ease;
+  opacity: .85;
+}
+
+#reset:active {
+  transition: all 60ms ease;
+  opacity: .75;
+}
+
+#reset:focus {
+  outline: none;
+}
