@@ -1,3 +1,3 @@
 #Tic Tac Toe
 
-* https://run.plnkr.co/plunks/3ihBQTlhkpZVCUO6MYBb/
+* https://run.plnkr.co/EJYUtdmoE6xy3a0i/
