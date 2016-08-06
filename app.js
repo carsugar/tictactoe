@@ -28,7 +28,7 @@ var rows = {row1: '', row2: '', row3: '',
             col1: '', col2: '', col3: '',
             diag1: '', diag2: ''};
 
-var markCell = (element) => (element.html(player));
+var markCell = (element) => {element.html(player)};
 
 var togglePlayer = () => {
     player === 'X' ? (
